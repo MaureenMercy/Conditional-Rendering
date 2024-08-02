@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <h1>To-do List</h1>
+        
+        <div id="emptyMessage" style="display: none;">
+            <p>Your to-do list is empty. Add some tasks!</p>
+        </div>
+        
+        <div id="todoList" style="display: none;">
+            <ul id="todos"></ul>
+            <button id="toggleCompleted" style="display: none;">Hide Completed Tasks</button>
+        </div>
+        
+        <div>
+            <input type="text" id="newTodo" placeholder="Enter a new todo">
+            <button id="addTodo">Add To-do</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
